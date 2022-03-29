@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './components/header/header.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
@@ -18,7 +17,6 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    ContactComponent,
     ProjectsComponent,
     HomeComponent,
     FooterComponent

@@ -1,0 +1,7 @@
+.slika-1::before {
+  background: url('https://brandaffair.ro/assets/ea8fd523/images/icons/contact_call.svg');
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+}
+
