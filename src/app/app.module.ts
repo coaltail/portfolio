@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 
 import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomeComponent } from './components/home/home.component';
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

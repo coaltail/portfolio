@@ -1,4 +1,4 @@
-<nav class="bg-gray-700 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 fixed w-full md:block">
+<nav class="bg-gray-700 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 w-full">
   <div class="flex flex-wrap justify-between items-center ">
         <span class="self-center text-xl font-semibold whitespace-nowrap text-white hover:text-teal-200"> <a routerLink="/home">Luka Baksa</a></span>
     <button  (click)="showMyContainer=!showMyContainer" data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500 dark:text-gray-500 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
@@ -28,7 +28,7 @@
       </ul>
     </div>
   </div>
-  <div *ngIf="showMyContainer" class="w-full md:hidden md:w-auto justify-center items-center " id="mobile-menu" [@dropDownMenu] >
+  <div *ngIf="showMyContainer" class="w-full md:hidden md:w-auto justify-center items-center" id="mobile-menu" [@dropDownMenu] >
     <ul class="menu-item flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium justify-center items-center">
       <li>
         <a href="#" routerLinkActive="text-teal-400" routerLink="/" [routerLinkActiveOptions]="{exact: true}" class="menu-item block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:p-0 dark:text-white hover:text-teal-400" aria-current="page">Home</a>
