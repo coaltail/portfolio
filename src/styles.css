@@ -6,10 +6,19 @@ html,
 body {
   height: 100%
 }
+*{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 body {
   background-color: #171717;
 }
-p, h1{
+p, h1, h2{
   color: white;
+}
+.underline-custom {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #525252;
+  text-decoration-thickness: 4px;
 }
