@@ -1,4 +1,7 @@
+
+
 # Port
+This is a work-in-progress version of my portfolio.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
