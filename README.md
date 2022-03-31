@@ -1,7 +1,7 @@
 
 
 # Portfolio - Description
-This is a work-in-progress version of my portfolio. The website is created using Angular and Tailwind CSS. 
+This is a work-in-progress version of my portfolio. The app is created using Angular and Tailwind CSS. 
 
 ## Development server
 
